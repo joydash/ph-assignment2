@@ -13,7 +13,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: #fff;
-    /* margin: 10px; */
     padding: 20px;
     width: 100%;
     height: auto;
@@ -51,9 +50,9 @@ nav .logo .amer {
     line-height: normal;
 }
 
-.navigator-all{
+.navigator-all {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
 }
 
@@ -72,16 +71,13 @@ nav .logo .amer {
 
 .navigator-add {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 240px;
-    height: 56px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 3px 0;
-    
-    
+    padding: 15px;
+    gap: 15px;
+
+
 }
 
 .navigator-add p {
@@ -93,19 +89,162 @@ nav .logo .amer {
     font-weight: 500;
     line-height: normal;
     align-items: center;
-    margin-left: 15px;
+
 }
 
-.navigator-add i {
-    width: 40.916px;
-    height: 20px;
-    flex-shrink: 0;
-    color: #F61C0D;
-    align-items: center;
+.youtube-icon {
+    color: red;
 }
-.navigator p{
+
+.navigator-icon {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navigator p {
     padding: 10px;
     margin-left: 20px;
 }
 
 /* Navbar section end  */
+
+/* This is banner section  */
+
+
+
+/* Banner section end  */
+
+.banner-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-text h3 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-text h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-text p {
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.banner-text .sign-in {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin-right: 20px;
+}
+
+.banner-text button {
+    margin-top: 20px;
+}
+
+.banner-text .Go-Rogue {
+    border-radius: 48px;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+/* Online Game section start  */
+
+.online-game {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.online-game h2 {
+    justify-content: center;
+    text-align: center;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-game p {
+    justify-content: center;
+    text-align: center;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.online-game .online-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.online-game .online-img img {
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.online-game .img-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.online-game .img-desc p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 324px;
+    
+}

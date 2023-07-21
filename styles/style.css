@@ -1,0 +1,111 @@
+/* This is Universal section  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Universal section End  */
+
+/* This is Navbar section  */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    /* margin: 10px; */
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+nav .logo h3 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FF42A5;
+}
+
+nav .logo .amer {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navigator-all{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navigator-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 3px 0;
+    
+    
+}
+
+.navigator-add p {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.navigator-add i {
+    width: 40.916px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #F61C0D;
+    align-items: center;
+}
+.navigator p{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/* Navbar section end  */

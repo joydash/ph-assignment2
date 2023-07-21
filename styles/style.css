@@ -222,6 +222,7 @@ nav .logo .amer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .online-game .online-img img {
@@ -231,14 +232,15 @@ nav .logo .amer {
     padding: 5px;
 }
 
-.online-game .img-desc{
+.online-game .img-desc {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    
+
 }
-.online-game .img-desc p{
+
+.online-game .img-desc p {
     color: #534C64;
     font-family: Work Sans;
     font-size: 16px;
@@ -246,5 +248,227 @@ nav .logo .amer {
     font-weight: 500;
     line-height: 30px;
     width: 324px;
-    
+
 }
+.online-img img:hover{
+    color: #000700;
+}
+
+/* Online Game Section End  */
+
+/* Play Game Section start  */
+
+.play-game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+#play1 {
+    width: 710px;
+    height: 650px;
+}
+
+#play2 {
+    width: 318px;
+    height: 365px;
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+}
+
+.play-img {
+    position: relative;
+    left: 50px;
+}
+
+.play-game .play-text h3 {
+    width: 426px;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+    color: #C34FCF;
+    position: relative;
+    bottom: 300px;
+    left: 80px;
+    margin-right: 50px;
+}
+
+.play-game .play-text p {
+
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    bottom: 300px;
+    left: 80px;
+    margin-right: 100px;
+    /* 166.667% */
+}
+
+/* Play Game Section End  */
+
+
+/* This Is Game Product section  */
+
+.product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF9FC;
+}
+
+.product .p1 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.p1 p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.p1 img {
+    width: 60px;
+    height: 60px;
+}
+
+.product2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: #FFF9FC;
+}
+
+.product2 .p1 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.p1:hover {
+    border: 2px solid #FF42A5;
+}
+
+/* Game Product section End  */
+
+/* This is Footer Section  */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #0B0223;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .company img {
+    width: 86.041px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+footer .company h3 {
+    font-family: Work Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FF42A5;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+footer .list ul li {
+    list-style: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+footer .list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .foot-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    color: #FFF;
+}
+
+footer .foot-icon i {
+    padding: 20px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+footer .condition ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .condition ul li {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+footer .copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer section END  */

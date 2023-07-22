@@ -122,8 +122,12 @@ nav .logo .amer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.banner-text{
     background-image: url("../images/Group\ 14.png");
     background-repeat: no-repeat;
+    
 }
 
 .banner-text h3 {
@@ -488,6 +492,24 @@ footer .copyright {
 
 /* RESPONSIVE SECTION  */
 /* MOBILE VIEW  */
-@media screen and  {
-    
+@media screen and (max-width:576px)  {
+     nav{
+        flex-direction: column-reverse;
+     }
+     .banner-section{
+        flex-direction: column-reverse;
+     }
+     .banner-pic img{
+        width: 400px;
+        height: 25px;
+        height: auto;
+        align-items: center;
+     }
+     .banner-text{
+        align-items: center;
+        justify-content: center;
+     }
+     .online-game{
+        flex-direction: column-reverse;
+     }
 }

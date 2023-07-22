@@ -122,6 +122,8 @@ nav .logo .amer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
 }
 
 .banner-text h3 {
@@ -223,24 +225,26 @@ nav .logo .amer {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    padding: 50px;
 }
 
 .online-game .online-img img {
     width: 342px;
     height: 400px;
     border-radius: 16px;
-    padding: 5px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
-.online-game .img-desc {
-    display: flex;
+/* .online-game .img-desc {
     justify-content: center;
     align-items: center;
 
 
-}
+} */
 
-.online-game .img-desc p {
+/* .online-game .img-desc p{
     color: #534C64;
     font-family: Work Sans;
     font-size: 16px;
@@ -248,10 +252,13 @@ nav .logo .amer {
     font-weight: 500;
     line-height: 30px;
     width: 324px;
+    text-align: left;
 
-}
+} */
 .online-img img:hover{
-    color: #000700;
+    background-color: #000700;
+    opacity: 50%;
+    color: #000700; 
 }
 
 /* Online Game Section End  */
@@ -319,7 +326,13 @@ nav .logo .amer {
 
 
 /* This Is Game Product section  */
+.gmae-product-item{
+    background-color: #FFF9FC;
+    width: 100%;
+    height: auto;
+    padding: 30px;
 
+}
 .product {
     width: 100%;
     height: auto;
@@ -472,3 +485,9 @@ footer .copyright {
 }
 
 /* Footer section END  */
+
+/* RESPONSIVE SECTION  */
+/* MOBILE VIEW  */
+@media screen and  {
+    
+}

@@ -281,6 +281,8 @@ nav .logo .amer {
     height: auto;
     margin-top: 80px;
     overflow: hidden;
+    position: relative;
+    margin-bottom: -120px;
 }
 
 #play1 {
@@ -344,11 +346,15 @@ nav .logo .amer {
 
 }
 .product {
-    width: 100%;
+    margin: 0 auto;
     height: auto;
     display: flex;
     justify-content: center;
     background-color: #FFF9FC;
+    max-width: 1200px;
+    flex-wrap: wrap;
+
+    
 }
 
 .product .p1 {
@@ -357,6 +363,7 @@ nav .logo .amer {
     padding: 5px;
     gap: 10px;
     margin-left: 20px;
+    flex-basis: 210px;
 }
 
 .p1 p {
@@ -505,8 +512,15 @@ footer .copyright {
 /* MOBILE VIEW  */
 @media screen and (max-width:576px)  {
      nav{
-        flex-direction: column-reverse;
+        flex-direction: column;
      }
+     .navigator-all{
+        flex-direction: column;
+     }
+     .navigator{
+        flex-direction: column;
+     }
+
      .banner-section{
         flex-direction: column-reverse;
      }
@@ -522,5 +536,121 @@ footer .copyright {
      }
      .online-game{
         flex-direction: column-reverse;
+        
      }
+     .online-game .online-img{
+        flex-direction: column-reverse;
+     }
+    .play-game{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .play-game .play-text{
+        position: relative;
+        margin-bottom: -250px;
+    }
+    #play1{
+        width: 500px;
+        height: 300px;
+    }
+    .gmae-product-item .product{
+        /* flex-direction: column-reverse; */
+        flex-wrap: wrap; 
+        margin-right: 40px; 
+        /* border: 1px solid black; */
+    }
+    .product .p1{
+        flex-basis: 50px;
+        /* border: 1px solid black; */
+
+    }
+    .product .p1 img {
+        width: 25px;
+        height: 25px;
+    }
+    .product .p1 p{
+        font-size: 15px;
+    }
+
+    footer .list ul li{
+        font-size: 10px;  
+        flex-wrap: wrap;
+        margin-left: 10px;
+
+        /* overflow: hidden; */
+    }
+    footer .foot-icon{
+      flex-basis: 50px;
+        overflow: hidden;
+        align-items: center;
+        font-size: 10px;
+        padding: 50px;
+        flex-wrap: wrap;
+    }
+    .condition{
+        padding: 20px;
+    }
+}
+
+/* Tablet view  */
+@media screen and (min-width:577px) and (max-width:992px) {
+    nav{
+       flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column;
+
+     }
+     .online-game{
+        flex-direction: column-reverse;
+        
+     }
+     .online-game .online-img{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+     }
+     .play-game{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    #play1{
+        width: 600px;
+        height: 400px;
+    }
+    #play2{
+        width: 300px;
+        height: 200px;
+        position: relative;
+        left: 400px;
+        bottom: 100px;
+        overflow: hidden;
+    }
+    .play-game .play-text{
+        position: relative;
+        top: 200px;
+    }
+    .product{
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+    .product .p1{
+        margin-right: 10px;
+    }
+    .product .p1 img{
+        width: 30px;
+        height: 30px;
+    }
+    .product .p1 p{
+        font-size: 10px;
+    }
+    /* .product2{
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    } */
 }
